@@ -1,0 +1,52 @@
+git init- intialize empty git repository(folder)
+ls -a : show hidden files in git
+ls .git : it showes what is in the git repository
+ touch : to create a file 
+
+
+
+first open a folder  -right click
+			   - get git bash here
+				-And tyepe the folowin command
+					-git clone "link in the new repository that is in the git hub website"
+and copy the files in the git repository in the system
+
+
+now open visual studio and open a folder that contains all your files
+and go the terminal box and select new terminal and type the folowing commands
+			- git add.  "add all the files from the local folder to the git hub website"
+			- git commit -m "message(80characters)"
+
+
+
+
+
+
+
+-------------------------------------------------- steps to do in visual studio-----------------------------------------------
+
+
+
+git clone "url"
+create or modify files
+
+git status -> details about files (U,M,A)
+			 u-untarcked
+			 m-modified
+			A-ādded files'
+
+git add . -> to add all files to staging area
+git add filename.extension -> 
+git add *.txt -> files with .txt extension will be added
+
+git status -> details about files (U,M,A)
+
+commit 
+
+git commit -m "message(80characters)"
+
+PUSH
+git push
+
+log 
+git log/git log --oneline
